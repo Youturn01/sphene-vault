@@ -1,0 +1,14 @@
+/target
+**/*.wasm
+**/*.wasm.hash
+
+# Local deployment output. Contract IDs are public, but this file is produced
+# on a specific machine and must never be a place where a secret key is written.
+deployments.local.json
+deployments/*.local.json
+
+.env
+*.secret
+*.seed
+.stellar
+.soroban
